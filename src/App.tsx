@@ -1,13 +1,13 @@
 import Layout from "./shared/layout/Layout.tsx";
+import {ToDoApp} from "./features/todo";
+
 
 function App() {
 
   return (
     <>
         <Layout>
-            <h1>
-                Main Content
-            </h1>
+            <ToDoApp />
         </Layout>
 
     </>
