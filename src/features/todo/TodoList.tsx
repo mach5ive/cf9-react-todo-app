@@ -1,6 +1,6 @@
-import IconButton from "../../../../../../../Downloads/cf9-react-todo-app-main/src/shared/ui/IconButton.tsx";
+import IconButton from "../../shared/ui/IconButton.tsx";
 import {CheckSquare, Edit, Save, Square, Trash2, X} from "lucide-react";
-import type {TodoListProps} from "../../../../../../../Downloads/cf9-react-todo-app-main/src/features/todo/types.ts";
+import type {TodoListProps} from "./types.ts";
 import {useState} from "react";
 
 const TodoList = ({
